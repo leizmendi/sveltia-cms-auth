@@ -8,9 +8,7 @@ engineStrict: true
 
 minimumReleaseAge: 1440
 
-overrides:
-  # Security update
-  undici@>=7.0.0 <7.30.1: ^7.30.1
+# overrides: movido a package.json (pnpm 9 de Cloudflare no lo lee desde aquí)
 
 # Work around https://github.com/sveltia/sveltia-cms-auth/issues/17
 packages:
